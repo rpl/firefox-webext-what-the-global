@@ -1,6 +1,7 @@
 {
   "name": "firefox-webext-what-the-global",
   "description": "Collect and visualize the globals defined by the Firefox from ext-*.js API implementation scripts",
+  "homepage": "https://rpl.github.io/firefox-webext-what-the-global/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +20,7 @@
     "@babel/generator": "^7.6.4",
     "@babel/parser": "^7.6.4",
     "@babel/traverse": "^7.6.3",
+    "gh-pages": "^2.1.1",
     "js-yaml": "^3.13.1",
     "shelljs": "^0.8.3"
   },
@@ -27,7 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "update-dump": "node scripts/collect-webext-api-module-globals.js"
+    "update-dump": "node scripts/collect-webext-api-module-globals.js",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
