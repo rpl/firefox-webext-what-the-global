@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c1ca655a2b0c98bdb13352b3f0b05e2e",
+    "revision": "8fc766d7663a0b9670af59c29e94597c",
     "url": "/firefox-webext-what-the-global/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/firefox-webext-what-the-global/static/css/2.0d01359c.chunk.css"
   },
   {
-    "revision": "626adca9ed6bd07715fb",
+    "revision": "9da465c0772785f7de48",
     "url": "/firefox-webext-what-the-global/static/css/main.60cb8a0d.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/firefox-webext-what-the-global/static/js/2.00670da6.chunk.js"
   },
   {
-    "revision": "626adca9ed6bd07715fb",
-    "url": "/firefox-webext-what-the-global/static/js/main.df095f54.chunk.js"
+    "revision": "9da465c0772785f7de48",
+    "url": "/firefox-webext-what-the-global/static/js/main.7a7ff114.chunk.js"
   },
   {
     "revision": "fe76bf8fd3f8db1295bf",

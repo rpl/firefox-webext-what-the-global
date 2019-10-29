@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/firefox-webext-what-the-global/precache-manifest.e1d70205ad102e417273f8ca77ae53aa.js"
+  "/firefox-webext-what-the-global/precache-manifest.99eb9e84b60571e1ca76823f0d5bb657.js"
 );
 
 self.addEventListener('message', (event) => {
