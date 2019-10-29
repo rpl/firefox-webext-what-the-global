@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1cd2f26c94dff8faaa8d3584d5a2db70",
+    "revision": "c1ca655a2b0c98bdb13352b3f0b05e2e",
     "url": "/firefox-webext-what-the-global/index.html"
   },
   {
