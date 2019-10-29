@@ -1,5 +1,6 @@
 {
-  "name": "webext-globals-explorer",
+  "name": "firefox-webext-what-the-global",
+  "description": "Collect and visualize the globals defined by the Firefox from ext-*.js API implementation scripts",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,13 +11,23 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.1",
     "typescript": "3.6.4"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.6.4",
+    "@babel/parser": "^7.6.4",
+    "@babel/traverse": "^7.6.3",
+    "js-yaml": "^3.13.1",
+    "shelljs": "^0.8.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "update-dump": "node scripts/collect-webext-api-module-globals.js"
   },
   "eslintConfig": {
     "extends": "react-app"

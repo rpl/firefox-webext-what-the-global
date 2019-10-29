@@ -1,3 +1,43 @@
+# firefox-web-ext-what-the-global
+
+This repository contains a small nodejs script which parses all the Firefox WebExtensions API scripts
+(all the ext-*.js files that implements the WebExtensions APIs in Firefox) and collect all the globals
+defined (by parsing and traverse the AST using babel utilities) and a bare React-based viewer of the
+dump.
+
+## Update the ext-*.js globals dump
+
+React-based viewer expects the latest dump to be available as `public/latest-dump.json`.
+
+To update the dump from a mozilla-central clone:
+
+```
+## If the mozilla-central clone is available as ../mozilla-central
+
+$ npm run update-dump
+# (or yarn run update-dump)
+
+## or to point it to a specific path:
+
+$ npm run update-dump -- ../path/to/mozilla-central
+```
+
+## Start the React viewer locally
+
+To explore the latest json dump locally, just start the create-react-app dev-server:
+
+```
+$ npm start
+
+or
+
+$ yarn start
+```
+
+----
+
+# React App Notes
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
