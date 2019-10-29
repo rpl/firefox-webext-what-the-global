@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/firefox-webext-what-the-global/static/css/main.60cb8a0d.chunk.css",
+    "main.js": "/firefox-webext-what-the-global/static/js/main.df095f54.chunk.js",
+    "main.js.map": "/firefox-webext-what-the-global/static/js/main.df095f54.chunk.js.map",
+    "runtime-main.js": "/firefox-webext-what-the-global/static/js/runtime-main.c65835af.js",
+    "runtime-main.js.map": "/firefox-webext-what-the-global/static/js/runtime-main.c65835af.js.map",
+    "static/css/2.0d01359c.chunk.css": "/firefox-webext-what-the-global/static/css/2.0d01359c.chunk.css",
+    "static/js/2.00670da6.chunk.js": "/firefox-webext-what-the-global/static/js/2.00670da6.chunk.js",
+    "static/js/2.00670da6.chunk.js.map": "/firefox-webext-what-the-global/static/js/2.00670da6.chunk.js.map",
+    "index.html": "/firefox-webext-what-the-global/index.html",
+    "precache-manifest.3c015c035f02835dfa1e5fc0c6954577.js": "/firefox-webext-what-the-global/precache-manifest.3c015c035f02835dfa1e5fc0c6954577.js",
+    "service-worker.js": "/firefox-webext-what-the-global/service-worker.js",
+    "static/css/2.0d01359c.chunk.css.map": "/firefox-webext-what-the-global/static/css/2.0d01359c.chunk.css.map",
+    "static/css/main.60cb8a0d.chunk.css.map": "/firefox-webext-what-the-global/static/css/main.60cb8a0d.chunk.css.map",
+    "static/media/semantic.min.css": "/firefox-webext-what-the-global/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c65835af.js",
+    "static/css/2.0d01359c.chunk.css",
+    "static/js/2.00670da6.chunk.js",
+    "static/css/main.60cb8a0d.chunk.css",
+    "static/js/main.df095f54.chunk.js"
+  ]
+}
