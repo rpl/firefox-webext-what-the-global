@@ -22,7 +22,7 @@
     "@babel/traverse": "^7.6.3",
     "gh-pages": "^2.1.1",
     "js-yaml": "^3.13.1",
-    "shelljs": "^0.8.3"
+    "shelljs": "0.8.4"
   },
   "scripts": {
     "start": "react-scripts start",
