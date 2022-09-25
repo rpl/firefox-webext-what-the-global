@@ -17,9 +17,9 @@
     "typescript": "3.6.4"
   },
   "devDependencies": {
-    "@babel/generator": "^7.6.4",
-    "@babel/parser": "^7.6.4",
-    "@babel/traverse": "^7.6.3",
+    "@babel/generator": "7.19.0",
+    "@babel/parser": "7.19.1",
+    "@babel/traverse": "7.19.1",
     "gh-pages": "^2.1.1",
     "js-yaml": "^3.13.1",
     "shelljs": "^0.8.3"
